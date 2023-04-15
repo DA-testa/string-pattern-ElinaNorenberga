@@ -4,7 +4,7 @@ def read_input():
     ievade = input()
 
     if ievade[0] == "F":
-        textFile = "./tests/" +  input() 
+        textFile = "./tests/06" 
         with open(textFile) as f: 
             line1 = f.readline().rstrip()
             line2 = f.readline().rstrip()
