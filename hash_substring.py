@@ -6,7 +6,9 @@ def read_input():
     if ievade[0] == "F":
         textFile = "./tests/" +  input() 
         with open(textFile) as f: 
-            return(f.readline().rstrip(), f.readline().rstrip())
+            line1 = f.readline().rstrip()
+            line2 = f.readline().rstrip()
+            return(line1, line2)
     if ievade[0] == "I":
         return (input().rstrip(), input().rstrip())
     
